@@ -1,8 +1,24 @@
 aid: awake-security-arista-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/awake-security-arista-networks.png
 name: Awake Security (Arista Networks)
-description: 'Awake Security (Arista Networks) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: security. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Awake Security was a network detection and response (NDR) company founded in 2014 that
+  used AI and machine learning to analyze network traffic and detect threats, compromised devices, and
+  malicious insiders without relying on agents or signatures. Arista Networks acquired Awake Security
+  in 2020 and the technology now ships as Arista NDR within Arista''s security portfolio. The former
+  awakesecurity.com domain redirects to Arista''s security solutions site; the product has no distinct
+  public developer API, OpenAPI specification, developer portal, or SDK program of its own. Originally
+  surfaced as a portfolio company of Bain Capital Ventures. Sector: security.'
 url: https://raw.githubusercontent.com/api-evangelist/awake-security-arista-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Security
+- Network Detection and Response
+- NDR
+- Cybersecurity
+- Threat Detection
+- Network Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/awake-security-arista-networks-domain-security.yml
 - type: Website
   url: https://awakesecurity.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
