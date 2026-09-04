@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://awakesecurity.com/', status: 301, note: 'declared website redirects to https://www.arista.com/en/solutions/security — a different registrable domain (awakesecurity.com -> arista.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/awake-security-arista-networks.png
 name: Awake Security (Arista Networks)
 description: 'Awake Security was a network detection and response (NDR) company founded in 2014 that
